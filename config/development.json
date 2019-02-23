@@ -1,0 +1,14 @@
+{
+  "http": {
+    "port": 5005
+  },  
+  "express": {
+    "requiredAuthorizationHeader": ""
+  },
+  "env": {
+    "NODE_TLS_REJECT_UNAUTHORIZED": "0"
+  },
+  "components": {
+    
+  }
+}

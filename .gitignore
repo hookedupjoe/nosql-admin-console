@@ -1,0 +1,7 @@
+data/
+node_modules/
+logs/
+joblogs/
+npm-debug.log
+config/emails.json
+package-lock.json

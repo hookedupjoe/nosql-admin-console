@@ -1,0 +1,333 @@
+html, body {
+  width:100%;
+  margin:0;
+  padding:0;
+  overflow: auto;
+  font-family: sans-serif;
+}
+
+.disabled {
+cursor: not-allowed !important;
+}
+
+.common-dialog-footer {
+border-top:solid 1px #dddddd;
+padding:4px;
+}
+.ui.form {
+  margin-right:40px;
+}
+.aa-ws {
+min-height:300px;    
+}
+.one-liner {
+white-space: nowrap;
+overflow:hidden;
+}
+.ui.menu {
+border:none !important;
+}
+.aa-footer {
+padding:3px;
+border: solid 1px;
+}
+
+.aa-outside {
+margin:0px;
+padding:0px;
+}
+
+/* Context Menu Tweaks */
+.context-menu-icon.context-menu-hover:before {
+color: #38afff;
+}
+
+.context-menu-icon.context-menu-icon--fa.context-menu-hover:before {
+color: #38afff;
+}
+
+.context-menu-item.context-menu-hover {
+color: #000;
+cursor: pointer; 
+background-color: transparent;
+}
+
+/* Semantic 2.3 not working as expected, work arounds for "top attached", etc */
+.ontop {
+padding-bottom:0px;
+}
+.onbottom {
+padding-top:0px;
+}
+
+.dimmed.dimmable>.ui.animating.dimmer, .dimmed.dimmable>.ui.visible.dimmer, .ui.active.dimmer {
+padding: 0;
+margin: 0;
+}
+
+i.bordered.icon {
+height:auto;
+width:auto;
+}
+
+.ui.menu.flow {
+padding-top:0;margin-top:0;overflow:auto;
+}
+
+
+.top-toolbar {
+  border-top:solid 1px black;
+  border-bottom:solid 1px black;
+  padding:
+  5px;
+}
+.requests-outline {
+  overflow:auto;
+  padding: 2px;
+  float:left;
+
+}
+.requests-details {
+  padding: 2px;
+  float:left;
+}
+.requests-tree-header {
+  font-weight:bold;
+  font-size:18px;
+  min-height:30px;
+  margin-bottom:8px;
+}
+
+@media only screen and (max-width: 700px) {
+  .requests-details {
+    width:100%;
+  }
+  .requests-outline {
+    width:100%;
+  }
+}
+@media only screen and (min-width: 699px) {
+  .requests-details {
+    width:60%;
+  }
+  .requests-outline {
+   width:40%;
+  }
+}
+
+.clearboth {
+clear:both;
+}
+
+.ui.button.context {
+  width:280px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+
+
+
+.scroll-site::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 3px rgba(0,1,0,0.3);
+background-color: #F5F5F5;
+}
+
+.scroll-site::-webkit-scrollbar
+{
+width: 6px;
+height:8px;
+background-color: #F5F5F5;
+}
+
+.scroll-site::-webkit-scrollbar-thumb
+{
+background-color: #303030;
+}
+
+.site-dt-resp-col{
+
+ width:10px;
+
+}
+
+.single-line-text {
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+text-align: left;
+}
+.bolder {
+font-weight: bolder;
+}
+.small-card {
+width:250px !important;
+}
+.mini-card {
+width:150px !important;
+}
+
+
+
+
+.site-header {
+color: white!important;
+font-weight: stong;
+font-size:18px;
+}
+
+
+.ui.menu .item.plain {
+position: inherit;
+}
+.ui.menu .item.plain {
+position: inherit;
+}
+.nopad {
+padding:0 !important;
+margin:0 !important;
+}
+.menu.middle {
+margin-top:0 !important;
+margin-bottom:0 !important;
+}
+.noshadow {
+box-shadow: none !important;
+position: inherit !important;    
+}
+
+
+.no-top {
+  margin-top:0 !important;
+}
+.no-bottom {
+  margin-bottom:0 !important; 
+}
+
+.ui.labeled.button>.label {
+  padding-top:10px;
+  display:block !important;
+}
+
+.vakata-context { z-index:10052 !important; }
+
+.hidden {
+  display: none;
+}
+
+.hidden.menu {
+  display: none;
+}
+
+.secondary.pointing.menu .toc.item {
+  display: none;
+}
+
+
+
+@media only screen and (min-width: 699px) {
+  .mobileonly {
+    display: none !important;
+  }
+  .mobilehidden {
+    display: '' !important;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .nomobile {
+    display: none !important;
+  }
+  .mobilehidden {
+    display: none !important;
+  }
+}
+
+
+.ui.menu .item {
+  font-size:14px;
+}
+.ui.sidebar.menu .item {
+  font-size:15px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.ui.visible.uncover.sidebar {
+  z-index: 3;
+}
+
+/* Semantic UI Overrides  */
+.ui.modal>.content {
+  width:auto !important;
+}
+
+.ui.segment, .ui.segments .segment {
+  font-size: 1.0rem;
+}
+
+.med-boxed {
+  min-height:400px;
+}
+
+/* Remove this .. was testing  */
+.pagination
+{
+width:100%;
+margin-top:20px;
+margin-bottom:20px;
+}
+
+.clear
+{
+clear:both;
+}
+
+.pagination a
+{
+font-size: 12px;
+line-height: 18px;
+}
+
+.container
+{
+max-width:768px;
+margin-bottom:20px;
+}
+
+.roundedbox
+{
+margin-top:20px;
+margin-bottom:20px;
+max-width:768px;
+height:300px;
+
+padding: 10px;
+background-color: #EEE;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+
+text-align:center;
+font-weight: 300;
+font-size: 20px;
+line-height: 36px;
+
+overflow:hidden;
+}
+
+.prettyprint {
+font-size:10px;
+}
+
+.example_btn {
+margin-bottom:10px;
+}
+
+.properties code,
+.methods code,
+.events code {
+cursor: pointer;
+text-decoration: underline;
+}

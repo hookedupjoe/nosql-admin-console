@@ -1,0 +1,21 @@
+{
+  "http": {
+    "port": "PORT"
+  },
+  "express": {
+    "requiredAuthorizationHeader": "REQUIRED_AUTHORIZATION_HEADER"
+  },
+  "logging": {
+    "logentriesToken": "LOGENTRIES_TOKEN",
+    "logentriesEnabled": "LOGENTRIES_ENABLED"
+  },
+  "components": {
+    "orders": {
+      "baseUrl": "ORDERS_BACKEND_URL",
+      "auth": {
+        "user": "ORDERS_BACKEND_USER",
+        "pass": "ORDERS_BACKEND_PASS"
+      }
+    }
+  }
+}

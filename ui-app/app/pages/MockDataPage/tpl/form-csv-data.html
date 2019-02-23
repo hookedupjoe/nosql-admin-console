@@ -1,0 +1,26 @@
+<div class="ui container">
+    <div class="ui form">
+        <h3>Mock Data Details</h3>
+        <div class="field">
+            <label>Doc Type</label>
+            <input name="doctype" value="mock-data" appuse="mock:form-csv:field"></input>
+        </div>
+        <div class="field">
+            <label>Data (CSV) with header as name</label>
+            <textarea name="data" appuse="mock:form-csv:field">
+id,first_name,last_name,email,application,ip_address,animal
+1,Henka,Cardenosa,hcardenosa0@drupal.org,Zaam-Dox,113.79.95.168,Yellow-necked spurfowl
+2,Carmita,Klos,cklos1@intel.com,Daltfresh,91.10.99.115,Small-spotted genet
+3,Sib,McBride,smcbride2@woothemes.com,Namfix,145.237.94.115,Oribi
+4,Tuesday,Caroll,tcaroll3@ucsd.edu,Stim,143.46.201.128,Bent-toed gecko
+5,Taddeusz,Sexstone,tsexstone4@macromedia.com,Zathin,91.181.85.176,"Armadillo, nine-banded"
+6,Ambur,Pergens,apergens5@telegraph.co.uk,Asoka,25.16.169.146,California sea lion
+7,Maris,Hambatch,mhambatch6@github.io,Domainer,119.117.17.69,"Hen, sage"
+8,Bron,Treverton,btreverton7@pcworld.com,Fix San,94.49.185.150,Square-lipped rhinoceros
+9,Harper,Bisley,hbisley8@nps.gov,Vagram,188.87.46.61,Tokay gecko
+10,Emmye,Hornung,ehornung9@privacy.gov.au,Zamit,206.176.31.238,Two-toed tree sloth</textarea>
+        </div>
+
+        <a action="mock:sendBulkData" class="ui button blue">Load Mock Data</a>
+    </div>
+</div>

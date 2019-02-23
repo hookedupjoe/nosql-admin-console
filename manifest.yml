@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 384M
+  buildpack: sdk-for-nodejs
+  instances: 1
+  domain: w3ibm.mybluemix.net
+  name: node-nosql-admin-demo
+  host: node-nosql-admin-demo
+  disk_quota: 1024M

@@ -1,0 +1,22 @@
+{
+  "http": {
+    "port": 5050,
+    "hostname": "localhost"
+  },
+  "express": {
+    "requiredAuthorizationHeader": "YOUR-HEADER-HERE",
+    "status": {
+      "path": "/status",
+      "responseCode": 200
+    }
+  },
+  "components": {
+    "auth-request": {
+      "token": "YOUR-HEADER-HERE-AGAIN-SAME-ONE",
+      "password": "YOUR-PASSWORD"
+    },
+    "api-admin": {
+      "api-admin-version": 1.02
+    }
+  }
+}

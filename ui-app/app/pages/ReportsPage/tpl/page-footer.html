@@ -1,0 +1,60 @@
+<div style="padding-bottom:0px;margin-bottom:0px;">
+
+  <div class="ui compact icon menu">
+    <a action="reports:tableSelectAll" class="item">
+      <i class="circle check icon blue"></i> 
+      <span facet="reports:total-count"></span>
+    </a>
+    <a action="reports:tableSelectNone" class="item">
+      <i class="circle check outline icon blue"></i>
+     
+    </a>
+    <a action="reports:tableSelectSearchResults" class="item">
+      <i appuse="reports:select-search" class="disabled circle check icon green"></i> 
+      <span facet="reports:search-count"></span>
+    </a>
+    
+    <div class="item"><div class="ui label blue"><b facet="reports:selection-details">0</b></div>&#160;&#160;Selected</div>
+
+  </div>
+  <div facet="reports:selection-actions" class="ui compact icon menu">
+    
+  </div>
+
+
+</div>
+
+
+<div appuse="reports:prompt-dialog" class="ui tiny modal">
+	<div appuse="reports:prompt-dialog-title" class="header">
+	  
+	</div>
+	<div appuse="reports:prompt-dialog-text" class="content">
+	  <p></p>
+	</div>
+	<div class="actions">
+	  <div class="ui negative red button">
+		No
+	  </div>
+	  <div appuse="reports:prompt-dialog-yes" action="" class="ui green right labeled icon button">
+		Yes
+		<i class="checkmark icon"></i>
+	  </div>
+	</div>
+</div>
+
+<div appuse="reports:processing-dialog" class="ui basic modal">
+	<div appuse="reports:processing-dialog-title" class="header">
+	  Processing ....
+	</div>
+	<div appuse="reports:processing-dialog-text" class="content">
+	  <i class="huge icons">
+        <i class="big loading circle notch icon"></i>
+    </i>
+	</div>
+	<div class="actions">
+	  <div class="ui negative red button">
+		Cancel waiting on this
+	  </div>
+	</div>
+</div>
